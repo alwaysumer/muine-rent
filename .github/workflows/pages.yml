@@ -24,7 +24,8 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
+      # npm install (not ci): the lock file is written by a newer npm than the runner's and ci rejects it
+      - run: npm install --no-audit --no-fund
       - name: Build static site
         run: node scripts/build-static.mjs
         env:
