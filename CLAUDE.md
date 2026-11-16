@@ -53,6 +53,15 @@ The owner speaks Russian; reply in Russian unless asked otherwise.
 - Homepage/llms copy now states only facts from the price list and photos (no private pools, gym, deposit or housekeeping claims).
 - Still placeholders before launch: `SITE.url` / `NEXT_PUBLIC_SITE_URL` (domain), brand name, `SITE.sameAs` (Google Business Profile etc.), postal code.
 
+## Hosting (2026-11-16)
+- Code: GitHub `alwaysumer/muine-rent` (branch `main`). Owner chose GitHub Pages, not Vercel.
+- Static build: `npm run build:static` (`scripts/build-static.mjs`) → `out/`: pre-resizes photos (`*.w640.jpg`, `*.w1280.jpg`, git-ignored),
+  builds with `STATIC_EXPORT=1` (`output: "export"`, custom image loader `src/lib/image-loader.ts`, middleware switched off for the build),
+  renames pages to the localized URLs from `src/i18n/routing.ts` (keep the `RENAME` table in the script in sync), writes the root language-picker `index.html`.
+- Local check of the static build: `node scripts/serve-static.mjs` → http://localhost:3222.
+- `.github/workflows/pages.yml` deploys `out/` to GitHub Pages on every push to `main`; site address comes from repo variable `SITE_URL`.
+- The normal server build (`npm run build` / `npm start`) still works and is unchanged.
+
 ## Next steps
 1. Get the remaining `TODO owner` facts, then update `properties.ts` and `public/llms.txt`.
 2. Step 2 (partly done): catalog `/rentals` exists with an apartment/villa filter (`?type=`, client island `CatalogGrid`),

@@ -6,6 +6,8 @@ const AI_BOTS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude
   "anthropic-ai", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot", "Applebot-Extended", "CCBot",
   "meta-externalagent", "Amazonbot", "DuckAssistBot", "MistralAI-User", "cohere-ai", "YandexAdditional", "YandexAdditionalBot", "Bytespider"];
 
+export const dynamic = "force-static"; // required for the static (GitHub Pages) build
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [

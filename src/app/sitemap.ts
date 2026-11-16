@@ -17,6 +17,8 @@ const entry = (href: Href, lastModified: string | Date, priority: number): Metad
     },
   }));
 
+export const dynamic = "force-static"; // required for the static (GitHub Pages) build
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   return [
