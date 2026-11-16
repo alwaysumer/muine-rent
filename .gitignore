@@ -1,0 +1,19 @@
+# dependencies and build output
+node_modules/
+.next/
+out/
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# secrets
+.env
+.env.local
+.env.*.local
+
+# owner's originals and private documents (large / not for the public repo)
+Photo/
+*.docx
+
+# local tooling and OS files
+.claude/
+.DS_Store

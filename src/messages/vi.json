@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "eyebrow": "Sea Links City · Mũi Né, Việt Nam",
+    "title": "Cho thuê căn hộ Ocean Vista & biệt thự Sea Links trực tiếp",
+    "subtitle": "Căn hộ view biển và biệt thự sân vườn cạnh sân golf 18 lỗ, bãi biển cát và lâu đài rượu vang Sea Links. Cho thuê theo tháng, trực tiếp từ chủ nhà.",
+    "imageAlt": "Toàn cảnh Sea Links City tại Mũi Né từ trên cao: bãi biển, các block Ocean Vista, biệt thự và sân golf",
+    "checkIn": "Nhận phòng",
+    "checkOut": "Trả phòng",
+    "guests": "Số khách",
+    "type": "Loại hình",
+    "any": "Tất cả",
+    "apartment": "Căn hộ",
+    "villa": "Biệt thự",
+    "search": "Tìm chỗ ở",
+    "orAsk": "Hoặc liên hệ trực tiếp:",
+    "trust1": "Giá chủ nhà, không phí đặt phòng",
+    "trust2": "Phản hồi trong 15 phút, 8:00–22:00",
+    "trust3": "English, Русский, Tiếng Việt",
+    "waHello": "Xin chào! Tôi muốn thuê chỗ ở tại Sea Links City, Mũi Né."
+  },
+  "card": {
+    "apartment": "Căn hộ",
+    "villa": "Biệt thự",
+    "bedrooms": "{count, plural, =0 {Studio} other {# phòng ngủ}}",
+    "guests": "Tối đa {count} khách",
+    "area": "{count} m²",
+    "from": "từ",
+    "perNight": "/ đêm",
+    "perMonth": "/ tháng",
+    "view": {
+      "sea": "View biển",
+      "golf": "View golf",
+      "garden": "View vườn",
+      "pool": "View hồ bơi",
+      "city": "View thành phố"
+    },
+    "privatePool": "Hồ bơi riêng",
+    "details": "Xem chi tiết"
+  },
+  "detail": {
+    "home": "Trang chủ",
+    "rentals": "Cho thuê",
+    "back": "Tất cả chỗ ở",
+    "ask": "Hỏi lịch trống và ngày ở:",
+    "photos": "{count} ảnh",
+    "hint": "chạm vào ảnh để xem toàn màn hình",
+    "photoN": "{title} — ảnh {n}",
+    "open": "Mở ảnh",
+    "close": "Đóng",
+    "prev": "Ảnh trước",
+    "next": "Ảnh sau",
+    "pricesTitle": "Giá thuê",
+    "period": "Thời gian",
+    "pricePerMonth": "Giá mỗi tháng",
+    "yearly": "Thuê 12 tháng (mỗi tháng)",
+    "priceNote": "Giá tính bằng đô la Mỹ. Khách tự trả tiền điện và nước; các chi phí khác do chủ nhà chịu.",
+    "metaSuffix": "cho thuê tại Mũi Né",
+    "metaPrice": "Từ ${amount} mỗi tháng."
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "TravelAgency"
+      ],
+      "@id": "https://www.example-muine-rentals.com/#organization",
+      "name": "Sea Links Stays",
+      "legalName": "Sea Links Stays Co., Ltd.",
+      "url": "https://www.example-muine-rentals.com",
+      "logo": "https://www.example-muine-rentals.com/logo.png",
+      "email": "booking@example-muine-rentals.com",
+      "telephone": "+84-000-000-000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sea Links City, Km 9 Nguyen Thong",
+        "addressLocality": "Phan Thiet",
+        "addressRegion": "Lam Dong",
+        "postalCode": "",
+        "addressCountry": "VN"
+      },
+      "areaServed": [
+        {
+          "@id": "https://www.example-muine-rentals.com/#sea-links-city"
+        },
+        {
+          "@type": "Place",
+          "name": "Mui Ne, Phan Thiet, Vietnam"
+        }
+      ],
+      "knowsLanguage": [
+        "en",
+        "ru",
+        "vi"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "reservations",
+          "telephone": "+84-000-000-000",
+          "email": "booking@example-muine-rentals.com",
+          "availableLanguage": [
+            "English",
+            "Russian",
+            "Vietnamese"
+          ],
+          "url": "https://wa.me/84000000000"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.example-muine-rentals.com/#website",
+      "url": "https://www.example-muine-rentals.com",
+      "name": "Sea Links Stays",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://www.example-muine-rentals.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.example-muine-rentals.com/en/rentals?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": [
+        "Place",
+        "TouristDestination"
+      ],
+      "@id": "https://www.example-muine-rentals.com/#sea-links-city",
+      "name": "Sea Links City",
+      "alternateName": [
+        "Sea Links Mui Ne",
+        "Sea Links Beach Hotel & Golf"
+      ],
+      "description": "Integrated resort complex in Mui Ne, Phan Thiet, Vietnam, with an 18-hole championship golf course, Sea Links Castle wine museum, private beach club, pools, apartments (Ocean Vista) and villas.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sea Links City, Km 9 Nguyen Thong",
+        "addressLocality": "Phan Thiet",
+        "addressRegion": "Lam Dong",
+        "postalCode": "",
+        "addressCountry": "VN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 10.9447,
+        "longitude": 108.2187
+      },
+      "hasMap": "https://www.google.com/maps?q=10.9447,108.2187",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "18-hole golf course",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Sea Links Castle (wine castle & museum)",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Private beach",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Swimming pools",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Restaurants",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24/7 security",
+          "value": true
+        }
+      ],
+      "containedInPlace": {
+        "@type": "City",
+        "name": "Phan Thiet",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "Vietnam"
+        }
+      }
+    },
+    {
+      "@type": [
+        "Place",
+        "ApartmentComplex"
+      ],
+      "@id": "https://www.example-muine-rentals.com/#ocean-vista",
+      "name": "Ocean Vista",
+      "alternateName": "Ocean Vista Sea Links",
+      "description": "Beachfront high-rise apartment complex inside Sea Links City, Mui Ne.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sea Links City, Km 9 Nguyen Thong",
+        "addressLocality": "Phan Thiet",
+        "addressRegion": "Lam Dong",
+        "postalCode": "",
+        "addressCountry": "VN"
+      },
+      "containedInPlace": {
+        "@id": "https://www.example-muine-rentals.com/#sea-links-city"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.example-muine-rentals.com/en/rentals/sea-links-villa-4br-private-pool-b27#webpage",
+      "url": "https://www.example-muine-rentals.com/en/rentals/sea-links-villa-4br-private-pool-b27",
+      "name": "Sea Links 4-Bedroom Golf View Villa with Private Pool",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://www.example-muine-rentals.com/#website"
+      },
+      "about": {
+        "@id": "https://www.example-muine-rentals.com/rentals/sea-links-villa-4br-private-pool-b27#rental"
+      },
+      "mainEntity": {
+        "@id": "https://www.example-muine-rentals.com/rentals/sea-links-villa-4br-private-pool-b27#rental"
+      },
+      "breadcrumb": {
+        "@id": "https://www.example-muine-rentals.com/en/rentals/sea-links-villa-4br-private-pool-b27#breadcrumb"
+      }
+    },
+    {
+      "@type": "VacationRental",
+      "@id": "https://www.example-muine-rentals.com/rentals/sea-links-villa-4br-private-pool-b27#rental",
+      "identifier": "SL-V-B27",
+      "name": "Sea Links 4-Bedroom Golf View Villa with Private Pool",
+      "description": "320 m² four-bedroom villa in Sea Links City with a private pool and terrace overlooking the Sea Links golf course, sleeps 10, 5 minutes by car to the beach.",
+      "url": "https://www.example-muine-rentals.com/en/rentals/sea-links-villa-4br-private-pool-b27",
+      "image": [
+        "https://www.example-muine-rentals.com/images/slv-b27-pool.jpg",
+        "https://www.example-muine-rentals.com/images/slv-b27-living.jpg",
+        "https://www.example-muine-rentals.com/images/slv-b27-bedroom.jpg"
+      ],
+      "latitude": 10.9431,
+      "longitude": 108.2161,
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 10.9431,
+        "longitude": 108.2161
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sea Links City, Km 9 Nguyen Thong",
+        "addressLocality": "Phan Thiet",
+        "addressRegion": "Lam Dong",
+        "postalCode": "",
+        "addressCountry": "VN"
+      },
+      "brand": {
+        "@id": "https://www.example-muine-rentals.com/#organization"
+      },
+      "containedInPlace": {
+        "@id": "https://www.example-muine-rentals.com/#sea-links-city"
+      },
+      "containsPlace": {
+        "@type": "House",
+        "@id": "https://www.example-muine-rentals.com/rentals/sea-links-villa-4br-private-pool-b27#unit",
+        "name": "Sea Links 4-Bedroom Golf View Villa with Private Pool",
+        "additionalType": "Villa",
+        "occupancy": {
+          "@type": "QuantitativeValue",
+          "value": 10,
+          "maxValue": 10
+        },
+        "numberOfBedrooms": 4,
+        "numberOfBathroomsTotal": 5,
+        "numberOfRooms": 5,
+        "floorSize": {
+          "@type": "QuantitativeValue",
+          "value": 320,
+          "unitCode": "MTK"
+        },
+        "bed": [
+          {
+            "@type": "BedDetails",
+            "numberOfBeds": 3,
+            "typeOfBed": "KingBed"
+          },
+          {
+            "@type": "BedDetails",
+            "numberOfBeds": 2,
+            "typeOfBed": "SingleBed"
+          }
+        ],
+        "amenityFeature": [
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "wifi",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "ac",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "kitchen",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "washerDryer",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "pool",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "outdoorGrill",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "patio",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "freeParking",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "tv",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "golfCourse",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "housekeeping",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "privatePool",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "petsAllowed",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "smokingAllowed",
+            "value": false
+          }
+        ],
+        "petsAllowed": true
+      },
+      "checkinTime": "14:00:00",
+      "checkoutTime": "12:00:00",
+      "knowsLanguage": [
+        "en",
+        "ru",
+        "vi"
+      ],
+      "priceRange": "$280–$520 per night",
+      "currenciesAccepted": "USD, VND, RUB",
+      "paymentAccepted": "Bank transfer, Credit card, Cash",
+      "telephone": "+84-000-000-000",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Low season",
+          "url": "https://www.example-muine-rentals.com/en/rentals/sea-links-villa-4br-private-pool-b27",
+          "priceCurrency": "USD",
+          "price": 280,
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 280,
+            "priceCurrency": "USD",
+            "unitCode": "DAY",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "DAY"
+            },
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "unitCode": "DAY"
+            }
+          },
+          "validFrom": "2026-05-01",
+          "validThrough": "2026-10-31",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://www.example-muine-rentals.com/#organization"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "High season",
+          "url": "https://www.example-muine-rentals.com/en/rentals/sea-links-villa-4br-private-pool-b27",
+          "priceCurrency": "USD",
+          "price": 380,
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 380,
+            "priceCurrency": "USD",
+            "unitCode": "DAY",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "DAY"
+            },
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "unitCode": "DAY"
+            }
+          },
+          "validFrom": "2026-11-01",
+          "validThrough": "2026-04-30",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://www.example-muine-rentals.com/#organization"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Lunar New Year (Tết)",
+          "url": "https://www.example-muine-rentals.com/en/rentals/sea-links-villa-4br-private-pool-b27",
+          "priceCurrency": "USD",
+          "price": 520,
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 520,
+            "priceCurrency": "USD",
+            "unitCode": "DAY",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "DAY"
+            },
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 4,
+              "unitCode": "DAY"
+            }
+          },
+          "validFrom": "2026-02-10",
+          "validThrough": "2026-02-22",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://www.example-muine-rentals.com/#organization"
+          }
+        }
+      ],
+      "dateModified": "2026-11-01"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.example-muine-rentals.com/en/rentals/sea-links-villa-4br-private-pool-b27#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.example-muine-rentals.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rentals",
+          "item": "https://www.example-muine-rentals.com/en/rentals"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sea Links 4-Bedroom Golf View Villa with Private Pool",
+          "item": "https://www.example-muine-rentals.com/en/rentals/sea-links-villa-4br-private-pool-b27"
+        }
+      ]
+    }
+  ]
+}

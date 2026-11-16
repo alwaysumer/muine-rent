@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Coastal-luxury palette: sand, deep ocean, lagoon teal, brass. */
+@theme {
+  --color-sand-50: #fbf8f3;
+  --color-sand-100: #f5efe4;
+  --color-sand-200: #e9dfcc;
+  --color-ocean-950: #081c27;
+  --color-ocean-900: #0e2a3b;
+  --color-ocean-700: #1d4a63;
+  --color-lagoon-600: #1f6f78;
+  --color-lagoon-500: #2a8a94;
+  --color-brass-500: #b08d57;
+  --color-brass-400: #c6a66f;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-cormorant), ui-serif, Georgia, serif;
+  --radius-card: 1.25rem;
+}
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; text-rendering: optimizeLegibility; }
+  body { @apply bg-sand-50 text-ocean-900 font-sans antialiased; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-lagoon-500; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

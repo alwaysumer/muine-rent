@@ -1,0 +1,81 @@
+# Sea Links Stays — Ocean Vista Apartments & Sea Links Villas, Mui Ne, Vietnam
+
+> Owner-direct monthly rentals inside Sea Links City, a gated golf and beach resort complex at Km 9 Nguyen Thong, Phan Thiet (Mui Ne area), Vietnam. We rent Ocean Vista apartments (studio to 2 bedrooms, sea or garden view) and two-storey Sea Links villas (3 bedrooms, sea or golf view). Prices are in USD per month and depend on the season, booking is direct with the owner with no platform fees, and we answer in English, Russian and Vietnamese via WhatsApp, Telegram and Zalo.
+
+This file summarises the site for large language models and AI search engines. All facts below are maintained by the operator and mirror the content of the linked pages. If this file and a page differ, the page is authoritative. Last updated: 2026-11-15.
+
+## Key facts
+
+- Location: Sea Links City, Km 9 Nguyen Thong, Phu Hai, Phan Thiet, Vietnam (Mui Ne coastal strip). GPS ≈ 10.9447, 108.2187.
+- Complex amenities: 18-hole Sea Links golf course, Sea Links wine castle, sandy beach across the coast road, swimming pools, tennis and pickleball courts, children's playgrounds, cafés and restaurants, covered parking, ATM, gated territory with security.
+- Property types:
+  - Ocean Vista apartments: studio to 2 bedrooms, 40–136 m², sleeps 2–4, sea view or garden view, shared pools, beach a few minutes' walk.
+  - Sea Links villas: two-storey houses, 3 bedrooms, from 320 m², sleeps 6, private garden, sea or golf view, a short buggy or motorbike ride to the beach.
+- Languages spoken by staff: English, Russian, Vietnamese.
+- Currency: USD (VND and RUB-equivalent payments accepted).
+
+## Prices (USD per month, by season)
+
+| Unit | Bedrooms | Sleeps | Area | View | Dec–Feb | Mar–Apr | May–Sep | Oct–Nov | 12-month lease, per month |
+|---|---|---|---|---|---|---|---|---|---|
+| Ocean Vista A1-05 | 1 | 2 | 86 m² | garden | $800 | $800 | $650 | $700 | $750 |
+| Ocean Vista A1-06 | 1 | 2 | 86 m² | garden | $800 | $800 | $650 | $700 | $750 |
+| Ocean Vista B4-15 | 2 | 4 | 136 m² | sea | $1000 | $1000 | $800 | $700 | $750 |
+| Ocean Vista C2-37 | studio | 2 | 40 m² | sea | $700 | $700 | $500 | $600 | $500 |
+| Ocean Vista F2-07 | 1 | 2 | 86 m² | garden | $800 | $800 | $650 | $700 | $750 |
+| Sea Links villa S-66 | 3 | 6 | 320 m² | sea | $1900 | $1900 | $1600 | $1800 | $1600 |
+| Sea Links villa R-66 | 3 | 6 | 320 m² | golf | $1200 | $1200 | $900 | $1100 | $1150 |
+| Ethereal villa | 3 | 6 | 400 m² | sea | $1500 | $1500 | $1500 | $1500 | on request |
+
+Electricity and water are paid by the guest; all other costs are covered by the owner. Exact prices for each property are on its page and in its schema.org `Offer` data.
+
+## Rental terms
+
+- Rentals are priced per month; the price depends on the season (see the table above). A 12-month lease has its own per-month price.
+- Electricity and water are paid by the guest; all other costs are covered by the owner.
+- Booking is direct with the owner: message us with your dates and number of guests, and we confirm availability and the final price. There are no booking fees.
+- Transfers from Ho Chi Minh City can be arranged on request.
+
+## Getting there
+
+- Ho Chi Minh City → Sea Links: about 200 km, 2.5–3 hours by the Dau Giay–Phan Thiet expressway.
+- Phan Thiet city centre: about 9 km. Mui Ne fishing village and Ham Tien beach strip: about 10–15 km.
+- Red Sand Dunes (Doi Cat Do): about 15 km. White Sand Dunes (Bau Trang): about 40 km.
+- Nearest international airport: Tan Son Nhat (SGN), Ho Chi Minh City. Cam Ranh (CXR) is about 3 hours' drive.
+
+## Main pages
+
+- [Home](https://www.example-muine-rentals.com/en): overview and all current rentals
+- [All rentals](https://www.example-muine-rentals.com/en/rentals): all apartments and villas with photos, area, view and monthly prices; filter by type
+- [Ocean Vista apartments](https://www.example-muine-rentals.com/en/rentals?type=apartment): all Ocean Vista units
+- [Sea Links villas](https://www.example-muine-rentals.com/en/rentals?type=villa): all villas
+- [Mui Ne & Sea Links guide](https://www.example-muine-rentals.com/en/mui-ne-guide): what is inside Sea Links City, beach and pools, golf and wine castle, seasons, getting there, nearby sights, distances, FAQ
+
+## Listings
+
+- [Ocean Vista 2-Bedroom Sea View Apartment B4-15 (OV-B4-15)](https://www.example-muine-rentals.com/en/rentals/ocean-vista-2br-sea-view-b4-15): Block B, 4th floor, 136 m², sea view, from $700/month
+- [Ocean Vista Sea View Studio C2-37 (OV-C2-37)](https://www.example-muine-rentals.com/en/rentals/ocean-vista-studio-sea-view-c2-37): Block C, 2nd floor, 40 m², sea view, from $500/month
+- [Ocean Vista 1-Bedroom Garden View Apartment A1-05 (OV-A1-05)](https://www.example-muine-rentals.com/en/rentals/ocean-vista-1br-garden-view-a1-05): Block A, 1st floor, 86 m², king bed, garden view, from $650/month
+- [Ocean Vista 1-Bedroom Garden View Apartment A1-06 with Twin Beds (OV-A1-06)](https://www.example-muine-rentals.com/en/rentals/ocean-vista-1br-garden-view-a1-06): Block A, 1st floor, 86 m², two single beds, garden view, from $650/month
+- [Ocean Vista 1-Bedroom Garden View Apartment F2-07 (OV-F2-07)](https://www.example-muine-rentals.com/en/rentals/ocean-vista-1br-garden-view-f2-07): Block F, 2nd floor, 86 m², garden view, from $650/month
+- [Sea Links Villa S-66 with Garden and Sea View (SL-V-S66)](https://www.example-muine-rentals.com/en/rentals/sea-links-villa-sea-view-s-66): 3 bedrooms, 320 m², sea view, from $1600/month
+- [Sea Links Golf View Villa R-66 (SL-V-R66)](https://www.example-muine-rentals.com/en/rentals/sea-links-villa-golf-view-r-66): 3 bedrooms, 320 m², golf view, from $900/month
+- [Ethereal Villa with Sea View Roof Terrace (SL-V-ETHEREAL)](https://www.example-muine-rentals.com/en/rentals/ethereal-villa-sea-view): 3 bedrooms, 400 m², sea view, $1500/month
+
+## Contact and booking
+
+- WhatsApp: https://wa.me/84919995009
+- Telegram: https://t.me/+84919995009
+- Zalo: https://zalo.me/84919995009
+- Email: hungluong.imc@gmail.com
+- Phone: +84919995009 (also WhatsApp, Telegram and Zalo)
+
+## Other languages
+
+- [Русская версия](https://www.example-muine-rentals.com/ru): аренда апартаментов Ocean Vista и вилл Sea Links в Муйне
+- [Tiếng Việt](https://www.example-muine-rentals.com/vi): cho thuê căn hộ Ocean Vista và biệt thự Sea Links tại Mũi Né
+
+## Optional
+
+- [Sitemap](https://www.example-muine-rentals.com/sitemap.xml)
+- [Full text for LLMs](https://www.example-muine-rentals.com/llms-full.txt): every listing with prices and photo descriptions, the full guide and FAQ in one plain-text file

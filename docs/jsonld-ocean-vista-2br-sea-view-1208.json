@@ -1,0 +1,439 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "TravelAgency"
+      ],
+      "@id": "https://www.example-muine-rentals.com/#organization",
+      "name": "Sea Links Stays",
+      "legalName": "Sea Links Stays Co., Ltd.",
+      "url": "https://www.example-muine-rentals.com",
+      "logo": "https://www.example-muine-rentals.com/logo.png",
+      "email": "booking@example-muine-rentals.com",
+      "telephone": "+84-000-000-000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sea Links City, Km 9 Nguyen Thong",
+        "addressLocality": "Phan Thiet",
+        "addressRegion": "Lam Dong",
+        "postalCode": "",
+        "addressCountry": "VN"
+      },
+      "areaServed": [
+        {
+          "@id": "https://www.example-muine-rentals.com/#sea-links-city"
+        },
+        {
+          "@type": "Place",
+          "name": "Mui Ne, Phan Thiet, Vietnam"
+        }
+      ],
+      "knowsLanguage": [
+        "en",
+        "ru",
+        "vi"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "reservations",
+          "telephone": "+84-000-000-000",
+          "email": "booking@example-muine-rentals.com",
+          "availableLanguage": [
+            "English",
+            "Russian",
+            "Vietnamese"
+          ],
+          "url": "https://wa.me/84000000000"
+        }
+      ],
+      "sameAs": []
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.example-muine-rentals.com/#website",
+      "url": "https://www.example-muine-rentals.com",
+      "name": "Sea Links Stays",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://www.example-muine-rentals.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.example-muine-rentals.com/en/rentals?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": [
+        "Place",
+        "TouristDestination"
+      ],
+      "@id": "https://www.example-muine-rentals.com/#sea-links-city",
+      "name": "Sea Links City",
+      "alternateName": [
+        "Sea Links Mui Ne",
+        "Sea Links Beach Hotel & Golf"
+      ],
+      "description": "Integrated resort complex in Mui Ne, Phan Thiet, Vietnam, with an 18-hole championship golf course, Sea Links Castle wine museum, private beach club, pools, apartments (Ocean Vista) and villas.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sea Links City, Km 9 Nguyen Thong",
+        "addressLocality": "Phan Thiet",
+        "addressRegion": "Lam Dong",
+        "postalCode": "",
+        "addressCountry": "VN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 10.9447,
+        "longitude": 108.2187
+      },
+      "hasMap": "https://www.google.com/maps?q=10.9447,108.2187",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "18-hole golf course",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Sea Links Castle (wine castle & museum)",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Private beach",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Swimming pools",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Restaurants",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24/7 security",
+          "value": true
+        }
+      ],
+      "containedInPlace": {
+        "@type": "City",
+        "name": "Phan Thiet",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "Vietnam"
+        }
+      }
+    },
+    {
+      "@type": [
+        "Place",
+        "ApartmentComplex"
+      ],
+      "@id": "https://www.example-muine-rentals.com/#ocean-vista",
+      "name": "Ocean Vista",
+      "alternateName": "Ocean Vista Sea Links",
+      "description": "Beachfront high-rise apartment complex inside Sea Links City, Mui Ne.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sea Links City, Km 9 Nguyen Thong",
+        "addressLocality": "Phan Thiet",
+        "addressRegion": "Lam Dong",
+        "postalCode": "",
+        "addressCountry": "VN"
+      },
+      "containedInPlace": {
+        "@id": "https://www.example-muine-rentals.com/#sea-links-city"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.example-muine-rentals.com/en/rentals/ocean-vista-2br-sea-view-1208#webpage",
+      "url": "https://www.example-muine-rentals.com/en/rentals/ocean-vista-2br-sea-view-1208",
+      "name": "Ocean Vista 2-Bedroom Sea View Apartment",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://www.example-muine-rentals.com/#website"
+      },
+      "about": {
+        "@id": "https://www.example-muine-rentals.com/rentals/ocean-vista-2br-sea-view-1208#rental"
+      },
+      "mainEntity": {
+        "@id": "https://www.example-muine-rentals.com/rentals/ocean-vista-2br-sea-view-1208#rental"
+      },
+      "breadcrumb": {
+        "@id": "https://www.example-muine-rentals.com/en/rentals/ocean-vista-2br-sea-view-1208#breadcrumb"
+      }
+    },
+    {
+      "@type": "VacationRental",
+      "@id": "https://www.example-muine-rentals.com/rentals/ocean-vista-2br-sea-view-1208#rental",
+      "identifier": "OV-B-1208",
+      "name": "Ocean Vista 2-Bedroom Sea View Apartment",
+      "description": "68 m² two-bedroom apartment on the 12th floor of Ocean Vista, Sea Links City, with a balcony facing the South China Sea, sleeps 5, 3 minutes' walk to the beach.",
+      "url": "https://www.example-muine-rentals.com/en/rentals/ocean-vista-2br-sea-view-1208",
+      "image": [
+        "https://www.example-muine-rentals.com/images/ov-1208-living.jpg",
+        "https://www.example-muine-rentals.com/images/ov-1208-balcony.jpg",
+        "https://www.example-muine-rentals.com/images/ov-1208-master.jpg"
+      ],
+      "latitude": 10.9452,
+      "longitude": 108.2203,
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 10.9452,
+        "longitude": 108.2203
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sea Links City, Km 9 Nguyen Thong",
+        "addressLocality": "Phan Thiet",
+        "addressRegion": "Lam Dong",
+        "postalCode": "",
+        "addressCountry": "VN"
+      },
+      "brand": {
+        "@id": "https://www.example-muine-rentals.com/#organization"
+      },
+      "containedInPlace": {
+        "@id": "https://www.example-muine-rentals.com/#ocean-vista"
+      },
+      "containsPlace": {
+        "@type": "Apartment",
+        "@id": "https://www.example-muine-rentals.com/rentals/ocean-vista-2br-sea-view-1208#unit",
+        "name": "Ocean Vista 2-Bedroom Sea View Apartment",
+        "additionalType": "Apartment",
+        "occupancy": {
+          "@type": "QuantitativeValue",
+          "value": 5,
+          "maxValue": 5
+        },
+        "numberOfBedrooms": 2,
+        "numberOfBathroomsTotal": 2,
+        "numberOfRooms": 3,
+        "floorSize": {
+          "@type": "QuantitativeValue",
+          "value": 68,
+          "unitCode": "MTK"
+        },
+        "floorLevel": "12",
+        "bed": [
+          {
+            "@type": "BedDetails",
+            "numberOfBeds": 1,
+            "typeOfBed": "KingBed"
+          },
+          {
+            "@type": "BedDetails",
+            "numberOfBeds": 2,
+            "typeOfBed": "SingleBed"
+          },
+          {
+            "@type": "BedDetails",
+            "numberOfBeds": 1,
+            "typeOfBed": "SofaBed"
+          }
+        ],
+        "amenityFeature": [
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "wifi",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "ac",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "kitchen",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "washerDryer",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "balcony",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "pool",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "gymFitnessEquipment",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "freeParking",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "beachAccess",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "tv",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "petsAllowed",
+            "value": false
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "smokingAllowed",
+            "value": false
+          }
+        ],
+        "petsAllowed": false
+      },
+      "checkinTime": "14:00:00",
+      "checkoutTime": "12:00:00",
+      "knowsLanguage": [
+        "en",
+        "ru",
+        "vi"
+      ],
+      "priceRange": "$65–$130 per night",
+      "currenciesAccepted": "USD, VND, RUB",
+      "paymentAccepted": "Bank transfer, Credit card, Cash",
+      "telephone": "+84-000-000-000",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Low season",
+          "url": "https://www.example-muine-rentals.com/en/rentals/ocean-vista-2br-sea-view-1208",
+          "priceCurrency": "USD",
+          "price": 65,
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 65,
+            "priceCurrency": "USD",
+            "unitCode": "DAY",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "DAY"
+            },
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "unitCode": "DAY"
+            }
+          },
+          "validFrom": "2026-05-01",
+          "validThrough": "2026-10-31",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://www.example-muine-rentals.com/#organization"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "High season",
+          "url": "https://www.example-muine-rentals.com/en/rentals/ocean-vista-2br-sea-view-1208",
+          "priceCurrency": "USD",
+          "price": 90,
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 90,
+            "priceCurrency": "USD",
+            "unitCode": "DAY",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "DAY"
+            },
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "unitCode": "DAY"
+            }
+          },
+          "validFrom": "2026-11-01",
+          "validThrough": "2026-04-30",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://www.example-muine-rentals.com/#organization"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Christmas & New Year",
+          "url": "https://www.example-muine-rentals.com/en/rentals/ocean-vista-2br-sea-view-1208",
+          "priceCurrency": "USD",
+          "price": 130,
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": 130,
+            "priceCurrency": "USD",
+            "unitCode": "DAY",
+            "referenceQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitCode": "DAY"
+            },
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "minValue": 5,
+              "unitCode": "DAY"
+            }
+          },
+          "validFrom": "2026-12-22",
+          "validThrough": "2026-01-05",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://www.example-muine-rentals.com/#organization"
+          }
+        }
+      ],
+      "dateModified": "2026-11-01"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.example-muine-rentals.com/en/rentals/ocean-vista-2br-sea-view-1208#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.example-muine-rentals.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rentals",
+          "item": "https://www.example-muine-rentals.com/en/rentals"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ocean Vista 2-Bedroom Sea View Apartment",
+          "item": "https://www.example-muine-rentals.com/en/rentals/ocean-vista-2br-sea-view-1208"
+        }
+      ]
+    }
+  ]
+}

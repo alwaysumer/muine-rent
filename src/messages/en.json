@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "eyebrow": "Sea Links City · Mui Ne, Vietnam",
+    "title": "Ocean Vista apartments & Sea Links villas, rented direct",
+    "subtitle": "Sea-view apartments and villas with gardens beside an 18-hole golf course, a sandy beach and the Sea Links wine castle. Monthly rentals direct from the owner.",
+    "imageAlt": "Aerial panorama of Sea Links City in Mui Ne: the beach, Ocean Vista apartment blocks, villas and the golf course",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Guests",
+    "type": "Stay type",
+    "any": "Any",
+    "apartment": "Apartment",
+    "villa": "Villa",
+    "search": "Search stays",
+    "orAsk": "Or ask us directly:",
+    "trust1": "Owner-direct prices, no booking fees",
+    "trust2": "Replies within 15 minutes, 8:00–22:00",
+    "trust3": "English, Русский, Tiếng Việt",
+    "waHello": "Hello! I'm looking for a place to stay in Sea Links City, Mui Ne."
+  },
+  "card": {
+    "apartment": "Apartment",
+    "villa": "Villa",
+    "bedrooms": "{count, plural, =0 {Studio} one {# bedroom} other {# bedrooms}}",
+    "guests": "Up to {count} guests",
+    "area": "{count} m²",
+    "from": "from",
+    "perNight": "/ night",
+    "perMonth": "/ month",
+    "view": {
+      "sea": "Sea view",
+      "golf": "Golf view",
+      "garden": "Garden view",
+      "pool": "Pool view",
+      "city": "City view"
+    },
+    "privatePool": "Private pool",
+    "details": "View details"
+  },
+  "detail": {
+    "home": "Home",
+    "rentals": "Rentals",
+    "back": "All stays",
+    "ask": "Ask about dates and availability:",
+    "photos": "{count} photos",
+    "hint": "tap a photo to view it full screen",
+    "photoN": "{title} — photo {n}",
+    "open": "Open photo",
+    "close": "Close",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "pricesTitle": "Rental prices",
+    "period": "Period",
+    "pricePerMonth": "Price per month",
+    "yearly": "12-month lease (per month)",
+    "priceNote": "Prices are in US dollars. Electricity and water are paid by the guest; all other costs are covered by the owner.",
+    "metaSuffix": "Monthly Rental in Mui Ne",
+    "metaPrice": "From ${amount} per month."
+  }
+}
