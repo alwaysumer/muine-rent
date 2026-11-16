@@ -51,10 +51,11 @@ The owner speaks Russian; reply in Russian unless asked otherwise.
 - Hero search form: with dates filled it opens WhatsApp (+84919995009) with a prefilled inquiry (dates, guests, type); without dates it goes to the catalog.
 - Sample reviews are NOT rendered on the homepage; show the Reviews section only with real, verifiable reviews.
 - Homepage/llms copy now states only facts from the price list and photos (no private pools, gym, deposit or housekeeping claims).
-- Still placeholders before launch: `SITE.url` / `NEXT_PUBLIC_SITE_URL` (domain), brand name, `SITE.sameAs` (Google Business Profile etc.), postal code.
+- Still placeholders before launch: `SITE.sameAs` (Google Business Profile etc.), postal code.
 
 ## Hosting (2026-11-16)
-- Code: GitHub `alwaysumer/muine-rent` (branch `main`). Owner chose GitHub Pages, not Vercel.
+- Domain: muinerent.com (bought at Namecheap, 2026-11-16); canonical address https://muinerent.com, brand name "Mui Ne Rent".
+- Code: GitHub `alwaysumer/muine-rent` (branch `main`, public — required for free GitHub Pages). Owner chose GitHub Pages, not Vercel.
 - Static build: `npm run build:static` (`scripts/build-static.mjs`) → `out/`: pre-resizes photos (`*.w640.jpg`, `*.w1280.jpg`, git-ignored),
   builds with `STATIC_EXPORT=1` (`output: "export"`, custom image loader `src/lib/image-loader.ts`, middleware switched off for the build),
   renames pages to the localized URLs from `src/i18n/routing.ts` (keep the `RENAME` table in the script in sync), writes the root language-picker `index.html`.

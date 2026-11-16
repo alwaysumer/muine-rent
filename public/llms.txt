@@ -1,4 +1,4 @@
-# Sea Links Stays — Ocean Vista Apartments & Sea Links Villas, Mui Ne, Vietnam
+# Mui Ne Rent — Ocean Vista Apartments & Sea Links Villas, Mui Ne, Vietnam
 
 > Owner-direct monthly rentals inside Sea Links City, a gated golf and beach resort complex at Km 9 Nguyen Thong, Phan Thiet (Mui Ne area), Vietnam. We rent Ocean Vista apartments (studio to 2 bedrooms, sea or garden view) and two-storey Sea Links villas (3 bedrooms, sea or golf view). Prices are in USD per month and depend on the season, booking is direct with the owner with no platform fees, and we answer in English, Russian and Vietnamese via WhatsApp, Telegram and Zalo.
 
@@ -45,22 +45,22 @@ Electricity and water are paid by the guest; all other costs are covered by the 
 
 ## Main pages
 
-- [Home](https://www.example-muine-rentals.com/en): overview and all current rentals
-- [All rentals](https://www.example-muine-rentals.com/en/rentals): all apartments and villas with photos, area, view and monthly prices; filter by type
-- [Ocean Vista apartments](https://www.example-muine-rentals.com/en/rentals?type=apartment): all Ocean Vista units
-- [Sea Links villas](https://www.example-muine-rentals.com/en/rentals?type=villa): all villas
-- [Mui Ne & Sea Links guide](https://www.example-muine-rentals.com/en/mui-ne-guide): what is inside Sea Links City, beach and pools, golf and wine castle, seasons, getting there, nearby sights, distances, FAQ
+- [Home](https://muinerent.com/en): overview and all current rentals
+- [All rentals](https://muinerent.com/en/rentals): all apartments and villas with photos, area, view and monthly prices; filter by type
+- [Ocean Vista apartments](https://muinerent.com/en/rentals?type=apartment): all Ocean Vista units
+- [Sea Links villas](https://muinerent.com/en/rentals?type=villa): all villas
+- [Mui Ne & Sea Links guide](https://muinerent.com/en/mui-ne-guide): what is inside Sea Links City, beach and pools, golf and wine castle, seasons, getting there, nearby sights, distances, FAQ
 
 ## Listings
 
-- [Ocean Vista 2-Bedroom Sea View Apartment B4-15 (OV-B4-15)](https://www.example-muine-rentals.com/en/rentals/ocean-vista-2br-sea-view-b4-15): Block B, 4th floor, 136 m², sea view, from $700/month
-- [Ocean Vista Sea View Studio C2-37 (OV-C2-37)](https://www.example-muine-rentals.com/en/rentals/ocean-vista-studio-sea-view-c2-37): Block C, 2nd floor, 40 m², sea view, from $500/month
-- [Ocean Vista 1-Bedroom Garden View Apartment A1-05 (OV-A1-05)](https://www.example-muine-rentals.com/en/rentals/ocean-vista-1br-garden-view-a1-05): Block A, 1st floor, 86 m², king bed, garden view, from $650/month
-- [Ocean Vista 1-Bedroom Garden View Apartment A1-06 with Twin Beds (OV-A1-06)](https://www.example-muine-rentals.com/en/rentals/ocean-vista-1br-garden-view-a1-06): Block A, 1st floor, 86 m², two single beds, garden view, from $650/month
-- [Ocean Vista 1-Bedroom Garden View Apartment F2-07 (OV-F2-07)](https://www.example-muine-rentals.com/en/rentals/ocean-vista-1br-garden-view-f2-07): Block F, 2nd floor, 86 m², garden view, from $650/month
-- [Sea Links Villa S-66 with Garden and Sea View (SL-V-S66)](https://www.example-muine-rentals.com/en/rentals/sea-links-villa-sea-view-s-66): 3 bedrooms, 320 m², sea view, from $1600/month
-- [Sea Links Golf View Villa R-66 (SL-V-R66)](https://www.example-muine-rentals.com/en/rentals/sea-links-villa-golf-view-r-66): 3 bedrooms, 320 m², golf view, from $900/month
-- [Ethereal Villa with Sea View Roof Terrace (SL-V-ETHEREAL)](https://www.example-muine-rentals.com/en/rentals/ethereal-villa-sea-view): 3 bedrooms, 400 m², sea view, $1500/month
+- [Ocean Vista 2-Bedroom Sea View Apartment B4-15 (OV-B4-15)](https://muinerent.com/en/rentals/ocean-vista-2br-sea-view-b4-15): Block B, 4th floor, 136 m², sea view, from $700/month
+- [Ocean Vista Sea View Studio C2-37 (OV-C2-37)](https://muinerent.com/en/rentals/ocean-vista-studio-sea-view-c2-37): Block C, 2nd floor, 40 m², sea view, from $500/month
+- [Ocean Vista 1-Bedroom Garden View Apartment A1-05 (OV-A1-05)](https://muinerent.com/en/rentals/ocean-vista-1br-garden-view-a1-05): Block A, 1st floor, 86 m², king bed, garden view, from $650/month
+- [Ocean Vista 1-Bedroom Garden View Apartment A1-06 with Twin Beds (OV-A1-06)](https://muinerent.com/en/rentals/ocean-vista-1br-garden-view-a1-06): Block A, 1st floor, 86 m², two single beds, garden view, from $650/month
+- [Ocean Vista 1-Bedroom Garden View Apartment F2-07 (OV-F2-07)](https://muinerent.com/en/rentals/ocean-vista-1br-garden-view-f2-07): Block F, 2nd floor, 86 m², garden view, from $650/month
+- [Sea Links Villa S-66 with Garden and Sea View (SL-V-S66)](https://muinerent.com/en/rentals/sea-links-villa-sea-view-s-66): 3 bedrooms, 320 m², sea view, from $1600/month
+- [Sea Links Golf View Villa R-66 (SL-V-R66)](https://muinerent.com/en/rentals/sea-links-villa-golf-view-r-66): 3 bedrooms, 320 m², golf view, from $900/month
+- [Ethereal Villa with Sea View Roof Terrace (SL-V-ETHEREAL)](https://muinerent.com/en/rentals/ethereal-villa-sea-view): 3 bedrooms, 400 m², sea view, $1500/month
 
 ## Contact and booking
 
@@ -72,10 +72,10 @@ Electricity and water are paid by the guest; all other costs are covered by the 
 
 ## Other languages
 
-- [Русская версия](https://www.example-muine-rentals.com/ru): аренда апартаментов Ocean Vista и вилл Sea Links в Муйне
-- [Tiếng Việt](https://www.example-muine-rentals.com/vi): cho thuê căn hộ Ocean Vista và biệt thự Sea Links tại Mũi Né
+- [Русская версия](https://muinerent.com/ru): аренда апартаментов Ocean Vista и вилл Sea Links в Муйне
+- [Tiếng Việt](https://muinerent.com/vi): cho thuê căn hộ Ocean Vista và biệt thự Sea Links tại Mũi Né
 
 ## Optional
 
-- [Sitemap](https://www.example-muine-rentals.com/sitemap.xml)
-- [Full text for LLMs](https://www.example-muine-rentals.com/llms-full.txt): every listing with prices and photo descriptions, the full guide and FAQ in one plain-text file
+- [Sitemap](https://muinerent.com/sitemap.xml)
+- [Full text for LLMs](https://muinerent.com/llms-full.txt): every listing with prices and photo descriptions, the full guide and FAQ in one plain-text file

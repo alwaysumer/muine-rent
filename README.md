@@ -1,4 +1,4 @@
-# Sea Links Stays — сайт аренды Ocean Vista и вилл Sea Links (Муйне)
+# Mui Ne Rent — сайт аренды Ocean Vista и вилл Sea Links (Муйне)
 
 Next.js 15 (App Router) · TypeScript · Tailwind CSS v4 · next-intl (EN / RU / VI)
 

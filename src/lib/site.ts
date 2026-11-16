@@ -1,8 +1,8 @@
 // Single source of truth for NAP (name/address/phone) — must match Google Business Profile exactly.
 export const SITE = {
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.example-muine-rentals.com",
-  name: "Sea Links Stays",                       // TODO: final brand name
-  legalName: "Sea Links Stays Co., Ltd.",        // TODO
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://muinerent.com",
+  name: "Mui Ne Rent",                       // TODO: final brand name
+  legalName: "Mui Ne Rent",        // TODO
   logo: "/logo.png",
   phone: "+84919995009",                         // one number for calls, WhatsApp, Telegram and Zalo
   email: "hungluong.imc@gmail.com",

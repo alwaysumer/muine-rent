@@ -13,7 +13,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const site = (process.argv[2] ?? process.env.NEXT_PUBLIC_SITE_URL ?? "").replace(/\/$/, "");
-if (!/^https:\/\//.test(site)) { console.error("Usage: node scripts/indexnow.mjs https://www.your-domain.com"); process.exit(1); }
+if (!/^https:\/\//.test(site)) { console.error("Usage: node scripts/indexnow.mjs https://muinerent.com"); process.exit(1); }
 
 const pub = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../public");
 const keyFile = (await fs.readdir(pub)).find((f) => /^[0-9a-f]{32}\.txt$/.test(f));

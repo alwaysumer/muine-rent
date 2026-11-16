@@ -19,8 +19,8 @@ export function Header({ locale }: { locale: Locale }) {
     <header className="absolute inset-x-0 top-0 z-30">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-baseline gap-2 text-sand-50" aria-label={`${SITE.name}, home`}>
-          <span className="font-display text-2xl font-semibold tracking-tight">Sea Links</span>
-          <span className="text-xs font-medium uppercase tracking-[0.25em] text-brass-400">Stays</span>
+          <span className="font-display text-2xl font-semibold tracking-tight">Mui Ne</span>
+          <span className="text-xs font-medium uppercase tracking-[0.25em] text-brass-400">Rent</span>
         </Link>
 
         <nav aria-label="Main" className="hidden items-center gap-8 text-sm font-medium text-sand-100/90 lg:flex">

@@ -12,8 +12,8 @@ export function Footer({ locale }: { locale: Locale }) {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 md:grid-cols-4 lg:px-8">
         <div className="md:col-span-1">
           <p className="flex items-baseline gap-2 text-sand-50">
-            <span className="font-display text-2xl font-semibold">Sea Links</span>
-            <span className="text-xs font-medium uppercase tracking-[0.25em] text-brass-400">Stays</span>
+            <span className="font-display text-2xl font-semibold">Mui Ne</span>
+            <span className="text-xs font-medium uppercase tracking-[0.25em] text-brass-400">Rent</span>
           </p>
           <p className="mt-4 text-sm leading-relaxed">{t.footer.about}</p>
         </div>
