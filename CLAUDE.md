@@ -45,7 +45,8 @@ The owner speaks Russian; reply in Russian unless asked otherwise.
 
 ## SEO / GEO setup (2026-11-15)
 - `robots.ts` allows all search engines and AI crawlers; `sitemap.xml` has hreflang for every page; canonical + hreflang via `buildMetadata`.
-- Google Search Console: verified 2026-11-17 via file `public/google28eeb824dd35c4ed.html` (do not delete). Yandex and Bing: not yet.
+- Google Search Console: verified 2026-11-17 via file `public/google28eeb824dd35c4ed.html` (do not delete). Bing Webmaster: added 2026-11-17 by import from GSC.
+  Yandex Webmaster: owner has no access (2026-11-17); Yandex is notified only via IndexNow + robots/sitemap.
 - Webmaster verification codes come from env (`.env.example`): `GOOGLE_SITE_VERIFICATION`, `YANDEX_VERIFICATION`, `BING_SITE_VERIFICATION`.
 - IndexNow: key file `public/<32-hex>.txt`; after each deploy run `node scripts/indexnow.mjs https://<domain>` (Bing, Yandex).
 - `public/llms.txt` is hand-written (keep in sync); `/llms-full.txt` is generated from listings + guide (`src/app/llms-full.txt/route.ts`).
