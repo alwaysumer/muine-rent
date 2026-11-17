@@ -71,12 +71,20 @@ for (const [locale, map] of Object.entries(RENAME)) {
 
 // ── 4. Root page: pick the visitor's language ──────────────────────────────────────────────────
 const site = (process.env.NEXT_PUBLIC_SITE_URL ?? "").replace(/\/$/, "");
+// Webmaster ownership checks look at the site root, so the verification tags must be on this page too.
+const esc = (v) => String(v).replace(/[&"<>]/g, "");
+const verify = [
+  ["google-site-verification", process.env.GOOGLE_SITE_VERIFICATION],
+  ["yandex-verification", process.env.YANDEX_VERIFICATION],
+  ["msvalidate.01", process.env.BING_SITE_VERIFICATION],
+].filter(([, v]) => v).map(([n, v]) => `<meta name="${n}" content="${esc(v)}">`).join("\n");
 await fs.writeFile(path.join(OUT, "index.html"), `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <title>Ocean Vista apartments &amp; Sea Links villas for rent in Mui Ne</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+${verify}
 <link rel="canonical" href="${site}/en">
 <link rel="alternate" hreflang="en" href="${site}/en">
 <link rel="alternate" hreflang="ru" href="${site}/ru">
