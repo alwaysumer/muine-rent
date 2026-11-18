@@ -26,6 +26,8 @@ export function HeroSearch({ action, whatsapp, labels: l }: { action: string; wh
   const [checkOut, setCheckOut] = useState("");
 
   const field = "block w-full rounded-xl border-0 bg-sand-50 px-3.5 py-3 text-base text-ocean-950 ring-1 ring-inset ring-sand-200 focus:ring-2 focus:ring-lagoon-500";
+  // iOS Safari: an empty date input has an intrinsic min width (overflows the grid) and no height.
+  const dateField = "h-12 min-w-0 appearance-none text-left [&::-webkit-date-and-time-value]:text-left";
   const label = "mb-1.5 block text-xs font-semibold uppercase tracking-wider text-ocean-700";
 
   return (
@@ -50,7 +52,7 @@ export function HeroSearch({ action, whatsapp, labels: l }: { action: string; wh
       }}
       className="mt-8 grid grid-cols-2 gap-3 rounded-2xl bg-white/95 p-4 shadow-2xl ring-1 ring-black/5 backdrop-blur sm:p-5 lg:grid-cols-[1fr_1fr_0.8fr_1.4fr_auto] lg:items-end"
     >
-      <div>
+      <div className="min-w-0">
         <label htmlFor="checkIn" className={label}>{l.checkIn}</label>
         <input
           id="checkIn" name="checkIn" type="date" min={today} value={checkIn}
@@ -58,16 +60,16 @@ export function HeroSearch({ action, whatsapp, labels: l }: { action: string; wh
             setCheckIn(e.target.value);
             if (checkOut && checkOut <= e.target.value) setCheckOut(addDays(e.target.value, 1));
           }}
-          className={field}
+          className={`${field} ${dateField}`}
         />
       </div>
-      <div>
+      <div className="min-w-0">
         <label htmlFor="checkOut" className={label}>{l.checkOut}</label>
         <input
           id="checkOut" name="checkOut" type="date"
           min={checkIn ? addDays(checkIn, 1) : today} value={checkOut}
           onChange={(e) => setCheckOut(e.target.value)}
-          className={field}
+          className={`${field} ${dateField}`}
         />
       </div>
       <div className="col-span-2 sm:col-span-1">

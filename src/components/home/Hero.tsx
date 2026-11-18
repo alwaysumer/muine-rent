@@ -37,7 +37,9 @@ export async function Hero({ locale }: { locale: Locale }) {
           <h1 id="hero-title" className="font-display text-4xl font-semibold leading-[1.05] text-balance sm:text-5xl lg:text-6xl">
             {t("title")}
           </h1>
-          <p className="mt-5 max-w-xl text-base leading-relaxed text-sand-100/90 text-pretty sm:text-lg">{t("subtitle")}</p>
+          {/* Phones get a short subtitle so the search form stays close to the top. */}
+          <p className="mt-5 max-w-xl text-base leading-relaxed text-sand-100/90 text-pretty sm:hidden">{t("subtitleMobile")}</p>
+          <p className="mt-5 hidden max-w-xl leading-relaxed text-sand-100/90 text-pretty sm:block sm:text-lg">{t("subtitle")}</p>
         </div>
 
         <HeroSearch
